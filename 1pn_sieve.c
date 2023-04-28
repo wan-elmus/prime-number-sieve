@@ -4,7 +4,7 @@
 #include <math.h>
 #include "mpi.h"
 
-#define n 100
+#define n 1000
 
 int main(int argc, char **argv)
 {
