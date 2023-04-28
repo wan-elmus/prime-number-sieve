@@ -1,0 +1,26 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "MPI Compile",
+            "type": "shell",
+            "command": "mpicxx",
+            "args": [
+                "-g",
+                "-O0",
+                "1pn_sieve.c",
+                "-o",
+                "/home/sensei/Repos/C_star/1pn_sieve"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
